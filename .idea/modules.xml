@@ -3,8 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/currency-conversion-service/currency-conversion-service.iml" filepath="$PROJECT_DIR$/currency-conversion-service/currency-conversion-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-service/eureka-service.iml" filepath="$PROJECT_DIR$/eureka-service/eureka-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/forex-microservice.iml" filepath="$PROJECT_DIR$/.idea/forex-microservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/forex-service/forex-service.iml" filepath="$PROJECT_DIR$/forex-service/forex-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway-service/gateway-service.iml" filepath="$PROJECT_DIR$/gateway-service/gateway-service.iml" />
     </modules>
   </component>
 </project>

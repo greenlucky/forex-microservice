@@ -30,8 +30,13 @@ public class ExchangeValueController {
     @Autowired
     private Environment environment;
 
+    @GetMapping()
+    public String index() {
+        return "Hello, I'm the Forex Service";
+    }
+
     @GetMapping("/from/{from}/to/{to}")
-    public ResponseEntity<Object> retrieveExchangeValue(@PathVariable String from, @PathVariable String to) throws ChangeSetPersister.NotFoundException {
+    public ResponseEntity<Object> retrieveExchangeValue(@PathVariable String from, @PathVariable String to) {
         logger.info("Retrieve Exchange value: from {} to {}", from, to);
         Optional<ExchangeValue> exchangeValue = exService.getFromAndTo(from, to);
         if (!exchangeValue.isPresent()) return new ResponseEntity<>("Not found", HttpStatus.BAD_REQUEST);

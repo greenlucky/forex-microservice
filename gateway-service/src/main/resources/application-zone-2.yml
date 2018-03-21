@@ -1,0 +1,7 @@
+server:
+  port: 8081
+
+eureka:
+  instance:
+    hostname: http://127.0.0.1
+    metadata-map.zone: zone2
