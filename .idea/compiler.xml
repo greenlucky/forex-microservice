@@ -7,14 +7,19 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="currency-conversion-service" />
+        <module name="eureka-service" />
         <module name="forex-microservice" />
         <module name="forex-service" />
+        <module name="gateway-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="currency-conversion-service" target="1.8" />
+      <module name="demo" target="1.8" />
+      <module name="eureka-service" target="1.8" />
       <module name="forex-microservice" target="1.5" />
       <module name="forex-service" target="1.8" />
+      <module name="gateway-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -1,0 +1,3 @@
+# application config
+server:
+  port: 8888

@@ -1,0 +1,35 @@
+# H2
+spring:
+  h2:
+    console:
+      enabled: true
+      path: /h2
+
+# Database
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:testdb;DB_CLOSE_DELAY=1
+    username: sa
+    password:
+    initialization-mode: always
+# spring data
+spring:
+  jpa:
+    show-sql: true
+
+# application config
+spring:
+  profiles:
+    active: instance-1
+  application:
+    name: forex-service
+
+server:
+  port: 8888
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
