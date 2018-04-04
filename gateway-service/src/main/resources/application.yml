@@ -1,0 +1,27 @@
+eureka:
+  client:
+    prefer-same-zone-eureka: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+
+
+spring:
+  profiles:
+    active: zone1
+  application:
+    name: gateway
+
+
+zuul:
+  ignoredServices: '*'
+  host:
+    connect-timeout-millis: 20000
+    socket-timeout-millis: 20000
+  routes:
+    currency-conversion-service:
+      path: /api/**
+      serviceId: currency-conversion-service
+      stripPrefix: true
+      sensitiveHeaders:
+
+
