@@ -1,0 +1,17 @@
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+
+spring:
+  profiles:
+    active: zone-1
+  application:
+    name: eureka-server-naming
+
+#forex-service:
+#  ribbon:
+#    listOfServers: localhost:8888,localhost:8889

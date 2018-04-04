@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/forex-microservice.iml" filepath="$PROJECT_DIR$/.idea/forex-microservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/forex-service/forex-service.iml" filepath="$PROJECT_DIR$/forex-service/forex-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/gateway-service/gateway-service.iml" filepath="$PROJECT_DIR$/gateway-service/gateway-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zipkin-service/zipkin-service.iml" filepath="$PROJECT_DIR$/zipkin-service/zipkin-service.iml" />
     </modules>
   </component>
 </project>

@@ -1,0 +1,18 @@
+
+<appender name="STASH" class="net.logstash.logbackappender.LogstashTcpSocketAppender">
+    <destination>192.168.99.100:5000</destination>
+    <encoder class="net.logstash.logback.encoder   LoggingEventCompositeJsonEncoder">
+        <providers>
+            <mdc />
+            <context />
+            <logLevel />
+            <loggerName />
+            <pattern>
+                <pattern> { "serviceName": "forex-service" } </pattern>
+            </pattern>
+            <threadName />
+            <message />
+            <logstashMarkers />
+            <stackTrace /> </providers>
+    </encoder>
+</appender>
