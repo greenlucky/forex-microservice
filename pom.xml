@@ -13,5 +13,6 @@
         <module>eureka-service</module>
         <module>gateway-service</module>
         <module>zipkin-service</module>
+        <module>bar-service</module>
     </modules>
 </project>

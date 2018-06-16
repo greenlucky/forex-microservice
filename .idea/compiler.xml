@@ -15,9 +15,11 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="bar-service" target="1.8" />
       <module name="currency-conversion-service" target="1.8" />
       <module name="demo" target="1.8" />
       <module name="eureka-service" target="1.8" />
+      <module name="foo-service" target="1.8" />
       <module name="forex-microservice" target="1.5" />
       <module name="forex-service" target="1.8" />
       <module name="gateway-service" target="1.8" />
